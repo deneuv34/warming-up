@@ -4,12 +4,14 @@ import {
   StyleSheet,
   Text,
   View,
-  Image
+  Image,
+  Button
 } from 'react-native';
 
  class coba extends Component {
   render() {
     return (
+
       <View style={styles.container}>
 
         <Image source={require('./img/1.jpg')} style={styles.foto}/>
@@ -24,6 +26,14 @@ import {
         <Text style={{fontSize: 20, fontWeight:'bold'}}>
           Camorra
         </Text>
+        <Button
+          title="Lanjut!!"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+
+
+
       </View>
     );
   }
