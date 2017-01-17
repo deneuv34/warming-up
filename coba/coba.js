@@ -1,3 +1,5 @@
+'use strict'
+
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -5,13 +7,13 @@ import {
   Text,
   View,
   Image,
-  Button
+  Button,
+  TextiInput
 } from 'react-native';
 
  class coba extends Component {
   render() {
     return (
-
       <View style={styles.container}>
 
         <Image source={require('./img/1.jpg')} style={styles.foto}/>
@@ -64,9 +66,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   foto: {
-    height: 250,
-    width: 175,
-    borderRadius: 10,
+    height: 150,
+    width: 100,
+    borderRadius: 2,
     marginBottom: 12
   }
 });

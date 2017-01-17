@@ -1,2 +1,2 @@
 # warming-up
-latihan
+update readme
